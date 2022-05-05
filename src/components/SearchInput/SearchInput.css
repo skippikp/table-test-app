@@ -5,7 +5,6 @@
   height: 52px;
   border: none;
   display: flex;
-  
 }
 
 .custom-input i {
@@ -20,13 +19,13 @@
   width: 100%;
   height: 50px;
   border: none;
-  background:none;
+  background: none;
   padding-left: 26px;
   padding-right: 51px;
   color: white;
   outline: none;
 }
 
-input[type="text"]::-webkit-input-placeholder {
-  color: #B3B7BF;
+input[type='text']::-webkit-input-placeholder {
+  color: #b3b7bf;
 }
