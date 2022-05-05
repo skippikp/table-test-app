@@ -9,7 +9,10 @@ function App() {
 			<SearchInput />
 			<Routes>
 				<Route path="/" element={<TableContainer />} />
-				<Route path="/:currentPage" element={<TableContainer />} />
+				<Route
+					path="/table-test-app/:currentPage"
+					element={<TableContainer />}
+				/>
 				<Route path="*" element={<TableContainer />} />
 			</Routes>
 		</div>

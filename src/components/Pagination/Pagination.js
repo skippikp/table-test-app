@@ -27,17 +27,17 @@ const Pagination = ({ personsPerPage, totalPersons, currentPage }) => {
 
 	return (
 		<div className="d-flex justify-content-around align-items-center pagination">
-			<Link className="page-item" to={`/${previousPage}`}>
+			<Link className="page-item" to={`/table-test-app/${previousPage}`}>
 				Назад
 			</Link>
 			<ul className="d-flex justify-content-center">
 				{pageNumbers.map((number) => (
 					<li className={pageNumberClass(number)} key={number}>
-						<Link to={`/${number}`}>{number}</Link>
+						<Link to={`/table-test-app/${number}`}>{number}</Link>
 					</li>
 				))}
 			</ul>
-			<Link to={`/${nextPage}`}>Далее</Link>
+			<Link to={`/table-test-app/${nextPage}`}>Далее</Link>
 		</div>
 	);
 };
