@@ -1,0 +1,20 @@
+.pagination {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.page-number {
+  width: 20px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.pagination a {
+  color: rgb(62, 62, 62);
+  font-weight: 700;
+}
+
+.active a{
+  color: #7EBC3C;
+}

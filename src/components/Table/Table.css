@@ -1,0 +1,42 @@
+.custom-table {
+  empty-cells: show;
+  margin-top: 15px;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table-header {
+  height: 50px;
+  background-color: rgba(71, 73, 85, 1);
+  color: white;
+  border: 1px solid rgba(71, 73, 85, 1);
+  text-align: center;
+}
+
+.custom-table td {
+  border: 1px solid rgba(227, 230, 236, 1);
+  border-collapse: collapse;
+  text-align: left;
+  
+}
+
+.custom-table td:first-child {
+  text-align: center;
+  padding: 41px 51px;
+}
+
+.custom-table td:nth-child(2) {
+  width: 50%;
+}
+
+.table-header th {
+  text-align: justify;
+}
+
+.table-heading {
+  display: flex;
+  gap: 40px;
+  padding-left: 20%;
+  font-size: 14px;
+}
+
