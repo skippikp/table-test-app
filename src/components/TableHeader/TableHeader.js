@@ -13,8 +13,8 @@ const TableHeader = ({ name, filter, onClick }) => {
 
   return (
     <th onClick={() => onClick(filterName())}>
-      <div className="table-heading">
-        <span>{name}</span> &#709;
+      <div className="table-header">
+        <span>{name}</span> <span>&#709;</span>
       </div>
     </th>
   );

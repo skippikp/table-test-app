@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.table-header {
+.table-head {
   height: 50px;
   background-color: rgba(71, 73, 85, 1);
   color: white;
@@ -28,11 +28,11 @@
   width: 50%;
 }
 
-.table-header th {
+.table-head th {
   text-align: justify;
 }
 
-.table-heading {
+.table-header {
   display: flex;
   gap: 40px;
   padding-left: 20%;

@@ -8,13 +8,10 @@ function App() {
     <div className="container mt-5 ">
       <SearchInput />
       <Routes>
-        <Route path="/" element={<TableContainer />} />{' '}
-        <Route
-          path="/table-test-app/:currentPage"
-          element={<TableContainer />}
-        />{' '}
-        <Route path="*" element={<TableContainer />} />{' '}
-      </Routes>{' '}
+        <Route path="/" element={<TableContainer />} />
+        <Route path="/:currentPage" element={<TableContainer />} />
+        <Route path="*" element={<TableContainer />} />
+      </Routes>
     </div>
   );
 }
